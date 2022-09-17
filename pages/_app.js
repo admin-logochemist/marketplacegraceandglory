@@ -1,7 +1,14 @@
 import '../styles/globals.css'
+import Home from '../pages/Home/Home'
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+
+
+function MyApp() {
+  return(
+    <>
+     <Home />
+    </>
+  )
 }
 
 export default MyApp
